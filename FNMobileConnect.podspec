@@ -8,6 +8,6 @@ Pod::Spec.new do |s|
   s.author           = { 'Faraday Development Team' => 'mobile@account.faradaynetworks.com' }
   s.source           = { :git => 'https://github.com/fn-ekokturk/iostestcocoapodssdk', :tag => 'v1.0.0' }
   s.platform         = :ios, '13.0'
-  spec.vendored_frameworks = 'FNMobileConnect.xcframework'
+  s.vendored_frameworks = 'FNMobileConnect.xcframework'
   s.requires_arc     = true
 end
